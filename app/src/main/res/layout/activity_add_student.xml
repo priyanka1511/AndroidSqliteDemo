@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:gravity="center"
+    tools:context=".views.AddStudentActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Add student" />
+
+    <EditText
+        android:id="@+id/sName"
+        android:layout_width="match_parent"
+        android:hint="student name"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/no"
+        android:layout_width="match_parent"
+        android:hint="student Roll no"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:hint="student Contact No"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/fName"
+        android:layout_width="match_parent"
+        android:hint="Father name"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:text="Add"
+        android:onClick="onClick"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
